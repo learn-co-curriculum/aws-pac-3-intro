@@ -1,4 +1,4 @@
-# Programming as Conversation Part 3: Introduction
+# Programming as Conversation 3: Introduction
 
 ## Learning Goals
 
@@ -22,7 +22,9 @@ transactionAmount)`.
 
 To have code that is easy to read, debug, and maintain, we need to bundle
 collections of atomic activities into "code paragraphs" that do work. JavaScript
-calls these "functions."
+calls these "functions." 
+
+Functions are the single most important unit of code in JavaScript. Much like a `<div>` or a `<section>` in HTML, functions serve as ways to group together related bits of JavaScript code. Grouped code is easier to read, debug, and improve.
 
 ## Abstraction
 
@@ -35,37 +37,22 @@ make or model — are invisible; they're not _essential_. But what we may be
 able to see is the vehicle type (car vs. truck) or the color of the car. By
 abstracting we see what's true at a higher level, or more _generally_.
 
-Here are a few more "abstractions:"
+ You might not think about it often, but your brain is full of abstractions.
 
-* [Jerry Seinfeld][jerry], [Ruth Bader Ginsburg][ruth], and [Cardi B][cardi] are
-  atomic individuals, but we can refer to them all collectively by the
-  abstraction (or they can be _abstracted_ into) "famous New Yorkers"
-* Books about a killer dog, a scary alter ego, and a scary clown can be
-  _abstracted_ into the name "horror novels (by Stephen King)"
-* Individuals with strange powers and (usually) strange clothing can be
-  _abstracted_ into "superheroes"
+| Single Units                                                      | Abstraction                             |
+| ----------------------------------------------------------------- | --------------------------------------- |
+| John, Paul, George, Ringo                                         | The Beatles                             |
+| Books about a killer dog, a scary clown, a scary alter ego...     | Horror novels (by Stephen King)         |
+| Individuals with strange powers and use them for the greater good | Superheroes                             |
+| Get two pieces of bread, put jam on ...                           | Make a peanut butter and jelly sandwich |
 
-Abstraction is a natural part of learning to converse. When you're first
-learning to communicate, you don't know enough to start talking about
-abstractions. You prefer to think about real, visible, tangible things. But as
-you learn about opposites, how things are similar (and how perhaps one thing is
-dissimilar) you grow in your ability to _abstract_.
 
-In fact, the thing that makes most higher learning "higher" is that the
-discussion, work, and discovery is focused on uncovering general principles
-that allow us to predict how things will work more-or-less most of the time.
-Amazingly, this was considered a pretty revolutionary idea at the time when
-Galileo and Newton started doing it. The moment that natural philosophers
-started looking for these "general rules of how things work," science as we
-know it was born.
+Abstraction is a natural part of learning to converse. We create abstractions to make it easier to shorten our sentences. We'd never get anything done if we couldn't abstract! We also use abstractions to decide what doesn't fit or what should fit. "Mozart" doesn't belong with The Beatles, but he does fit with "Classical Composers."
+
+Abstractions help us think about complex activities. Humans brought the pattern of "abstracting work" to JavaScript. Abstractions that hold work are called functions.
 
 ## Next Steps
 
 In Programming as Conversation 3, we'll learn to take our JavaScript
 _expressions_ and _statements_ and bundle them up into abstractions called
-_functions_. Before we get to that, however, we first need to learn a little
-about _testing_ in JavaScript.
-
-[jerry]: https://en.wikipedia.org/wiki/Jerry_Seinfeld
-[ruth]: https://en.wikipedia.org/wiki/Ruth_Bader_Ginsburg
-[cardi]: https://en.wikipedia.org/wiki/Cardi_B
+_functions_.
